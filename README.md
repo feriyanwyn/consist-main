@@ -1,51 +1,16 @@
-# Consist – Intelligent Content Manager
+# React + Vite
 
-Project Akhir Praktikum Pemrograman Web  
-Universitas Gunadarma – Semester 5  
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 👤 Identitas
-- Nama: Feriyan Eka Nanda
-- NPM: 50423500
-- Mata Kuliah: Praktikum Pemrograman Web
+Currently, two official plugins are available:
 
-## 📌 Deskripsi Project
-Consist adalah aplikasi manajemen konten berbasis web yang dirancang untuk membantu tim kreatif
-dalam mengelola konten secara terstruktur. Aplikasi ini menggunakan arsitektur full stack JavaScript
-dan terintegrasi dengan AI (DeepSeek) untuk menghasilkan ringkasan serta ide konten otomatis.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🛠️ Teknologi yang Digunakan
-### Frontend
-- React JS
-- Vite
-- Tailwind CSS
-- Axios
+## React Compiler
 
-### Backend
-- NodeJS
-- ExpressJS
-- Sequelize ORM
-- MySQL
-- JWT Authentication
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### AI
-- LLM DeepSeek (via OpenAI Library)
+## Expanding the ESLint configuration
 
-## 📂 Struktur Repository
-consist-pweb/
-├── frontend/
-├── backend/
-├── docs/
-│ └── PWEB_MANUAL_BOOK_FERIYAN_EKA_NANDA_50423500.pdf
-└── README.md
-
-
-## 📄 Dokumentasi
-Dokumentasi lengkap project tersedia pada file:
-- `docs/PWEB_MANUAL_BOOK_FERIYAN_EKA_NANDA_50423500.pdf`
-
-## 🎯 Tujuan Project
-- Mengimplementasikan materi Praktikum Pemrograman Web
-- Membangun aplikasi web full stack
-- Mengintegrasikan AI dalam sistem manajemen konten
-
----
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
